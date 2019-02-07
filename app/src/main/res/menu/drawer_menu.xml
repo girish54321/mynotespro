@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_page1"
+            android:icon="@drawable/ic_book"
+            android:title="Page 1" />
+        <item
+            android:id="@+id/nav_page2"
+            android:icon="@drawable/ic_book"
+            android:title="Page 2" />
+        <item
+            android:id="@+id/nav_page3"
+            android:icon="@drawable/ic_book"
+            android:title="Page 3" />
+        <item
+            android:id="@+id/nav_page4"
+            android:icon="@drawable/ic_book"
+            android:title="Page 4" />
+        <item
+            android:id="@+id/nav_page5"
+            android:icon="@drawable/ic_book"
+            android:title="Page 5" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:title="Add Notes"
+                android:id="@+id/action_add"
+                android:icon="@drawable/ic_add"/>
+
+        </menu>
+    </item>
+
+</menu>
+

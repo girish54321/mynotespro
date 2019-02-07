@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:shortcutShortLabel="@string/l1"
+        android:shortcutLongLabel="@string/l1"
+        android:shortcutDisabledMessage="@string/l1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.girish.mynotespro"
+            android:targetClass="com.example.girish.mynotespro.SettingsActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+
+    <shortcut
+        android:shortcutId="new_note"
+        android:enabled="true"
+        android:icon="@drawable/ic_addw"
+        android:shortcutShortLabel="@string/add"
+        android:shortcutLongLabel="@string/add"
+        android:shortcutDisabledMessage="@string/add">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.girish.mynotespro"
+            android:targetClass="com.example.girish.mynotespro.addnotesActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#778899</color>  // THIS CHNAGS THE TOOLBAR COLOR
+    <color name="colorPrimaryDark">#708090</color>  // THIS IS FOR NOTEFICION PANLE
+    <color name="colorAccent">#708090</color>
+    <color name="black">#455566</color>
+    <color name="whiteshed">#455566</color>
+</resources>
